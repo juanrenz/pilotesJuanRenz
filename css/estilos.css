@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans Condensed', sans-serif;  
+}
+
+body{
+    background: rgb(222,215,177);
+    background: radial-gradient(circle, rgba(222,215,177,1) 0%, rgba(153,146,107,1) 88%);
+    height: 100%;
+}
+
+#grillaIndex{
+    display: grid;
+
+grid-template-areas: 
+"header header header"
+"principal principal principal"
+"footer footer footer";
+
+grid-template-rows: 20% 70% 25%;
+
+grid-template-columns: 95%;
+
+row-gap: 10px;
+
+justify-content: center;
+
+height: 100vh;
+margin: 0;
+}
+
+
+
+/*header*/
+
+header{
+    background-color: #CC7351;
+    grid-area: header;
+    border: 1px black;
+    border-style: ridge;
+    margin: 0.313rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tituloPrincipal{
+    display: flex;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(77, 77, 77);
+    justify-content: left;
+    align-items: center;
+    height: 7vh;
+    padding: 5px;
+    font-size: 40px;
+}
+
+.barraNavegacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barraNavegacion a{
+    text-decoration: none;
+    color: #EEEBDD;
+}
+
+
+.barraNavegacion ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+.barraNavegacion li{
+    padding-right:  10px;
+    padding-left: 10px;
+    font-size: 24px;
+    list-style-type: none;
+}
+
+/*contenido principal index*/
+
+#principal{
+    background-color: #bbb9b0;
+    padding: 0.625rem;
+    grid-area: principal;
+    border: 1px black;
+    border-style: ridge;
+    margin: 0.313rem;
+}
+
+.flex-contenidoPrincipal{
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+}
+
+.flex-contenidoPrincipal h2{
+    font-size: 36px;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+.positionContenedorPrincipal{
+    position: relative;
+}
+
+.contenedorTextoPrincipal{
+    background-color: #EEEBDD;
+    height: 300px;
+    width: 50rem;
+    position: absolute;
+    z-index: 2;
+    left: 45rem;
+    top: 3rem;
+    padding: 20px;
+    text-align: justify;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.contenedorTextoPrincipal p {
+    font-size: 24px;
+    padding: 10px;
+}
+
+.contenedorImagenPrincipal{
+    height: 500px;
+    width: 550px;
+    position: absolute;
+    left: 5rem;
+    top: 2rem;
+    z-index: 1;
+}
+
+/* contenido principal quienes somos*/
+
+#quienes-somos-principal{
+    grid-area: principal;
+}
+
+/*contenido principal tabla*/
+
+#contenedorServicios{
+    background-color: #bbb9b0;
+    grid-area: principal;
+    
+}
+
+.contenedorFieldsetTabla{
+    height: 100%;   
+    padding: 5px;
+}
+
+.fieldsetTabla{
+    height: 97%;
+}
+
+.contenedorTabla{
+    height: 97%;
+    padding-right: 0.625rem;
+}
+
+.tablaServicios{    
+    background-color: white;
+    height: 28rem;
+    margin: 00.373rem;
+    border-radius: 0.313rem;
+    height: 100%;
+}
+
+.titulosTabla{
+    font-size: 20px;
+    font-weight: bold;
+    height: 2rem;
+    width: 5.5rem;
+    text-align: center;
+}
+
+.contenidoTabla{
+    text-align: center;
+}
+
+/*formulario de contacto*/
+
+form{
+    grid-area: principal;
+    background-color: #bbb9b0;
+    padding: 0.625rem;
+    height: 95%;
+}
+
+.fieldsetContacto{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+legend{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 0.625rem;
+}
+
+.contenedorFormulario{
+    margin: 00.313rem;
+}
+
+.contenedorInformacion{
+    background-color:#bbb9b0;;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.informacionContacto{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    justify-content: space-evenly;
+}
+
+.tituloInput{
+    padding: 0.313rem;
+    margin: 0.625rem;
+    width: 100%;
+}
+
+.tituloInput input{
+    margin-right: 5rem;
+    width: 83%;
+}
+
+.tituloInput textarea{
+    width: 100%;
+}
+
+.flexContainerServicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30rem;
+    justify-content: space-around;
+}
+
+.tipoServicio{
+    background-color:#bbb9b0;
+    width: 100%;
+}
+
+h3{
+    margin: 5px;
+}
+
+select{
+    width: 100%;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.dondeConocio{
+    background-color:#bbb9b0;;
+}
+
+.flexContainerBotones{
+    display: flex;
+    justify-content: center;
+}
+
+.botonesFormulario{
+    background-color:#bbb9b0;
+    margin: 15px;
+    font-size: 24px;
+    clear: both;
+}
+
+button{
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 0.313rem;
+}
+
+input{
+    font-size: 1rem;
+    padding: 0.625rem;
+    margin: 0.313rem;
+}
+
+select{
+    font-size: 1rem;
+    padding: 0.625rem;
+    margin: 0.313rem;
+}
+
+/* footer */
+
+footer{
+    clear: both;
+    grid-area: footer;
+    height: 100%;
+}
+
+.barraLogosClientes{
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    background-color: #CC7351;
+    margin: 0.313rem;
+    padding: 0.313rem;
+}
+
+.barraLogosClientes img{
+    height: 7rem;
+    width: 8rem;
+    padding: 00.313rem;
+}
+
+.barraRedesSociales{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #CC7351; 
+    text-align: center;
+    border: 1px solid black;
+    margin: 0.313rem;
+}
+
+.contenedorImagenLogos{
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+}
+
+.contenedorImagenLogos img {
+    height: 30px;
+    width: 30px;
+    margin: 3px;
+    padding-right: 10px;
+}
+
+.contenedorTelefono{
+    display: flex;
+    flex-direction:column-reverse;
+    align-items: flex-end;
+    font-weight: bolder;
+    letter-spacing: 0.063rem;
+}
+
+.contenedorMapa{
+    height: 9.375rem;
+    width: 12.5rem;
+    margin: 0.373rem;
+}
+
+
+/*MEDIA*/
+
+@media (max-width: 575.98px) { 
+    
+    .contenedorImagenPrincipal{
+        display: none;
+    }
+
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+@media (min-width: 1200px) { }
