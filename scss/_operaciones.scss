@@ -1,0 +1,3 @@
+@for $ancho from 1 through 3{
+    .input-#{$ancho}{height: 1rem * $ancho;}
+}

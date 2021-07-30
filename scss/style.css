@@ -12,7 +12,9 @@ body {
 #grilla {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "header header header" "principal principal principal" "footer footer footer";
+      grid-template-areas: "header header header"
+ "principal principal principal"
+ "footer footer footer";
   -ms-grid-rows: 20% 70% 25%;
       grid-template-rows: 20% 70% 25%;
   -ms-grid-columns: 100%;
@@ -501,5 +503,15 @@ body {
   margin: 0.373rem;
 }
 
-/* MEDIA QUERIES*/
+.input-1 {
+  height: 1rem;
+}
+
+.input-2 {
+  height: 2rem;
+}
+
+.input-3 {
+  height: 3rem;
+}
 /*# sourceMappingURL=style.css.map */
