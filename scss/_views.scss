@@ -1,0 +1,111 @@
+/* ELEMENTOS HEADER */
+
+.header{
+    
+    &__titulo{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        height: 7vh;
+        padding: 5px;
+        font-size: 40px;
+
+        h1{
+            font-family: 'Tourney', cursive;
+            font-size: 48px;
+        }
+
+        h1:hover{
+            filter: drop-shadow(10px 10px 15px $colorGrisOscuro);
+        }
+
+        a{
+            text-decoration: none;
+            color: whitesmoke;
+        }
+
+    }
+
+    .bg-light{
+        background-color: $colorAmarillo!important;
+    }
+    
+
+}
+
+/*ELEMENTOS FOOTER*/
+
+.footer{
+
+    &__barraClientes{
+        height: 15vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid black;
+        background-color: #2c2e43;
+        margin: 0.313rem;
+        padding: 0.313rem;
+
+        img{
+            height: 7rem;
+            width: 8rem;
+            padding: 00.313rem;
+        }
+
+        img:hover{
+            filter: grayscale(50%);
+        }
+    }
+    
+    &__barraRedesSociales{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #2c2e43b5;
+        text-align: center;
+        border: 1px solid black;
+        margin: 0.313rem;
+        
+        &__logos{
+            display: inline;
+            margin: 5px;
+            padding: 5px;
+            overflow:hidden;
+    
+            img{
+                height: 30px;
+                width: 30px;
+                margin: 3px;
+                -webkit-transition:all .9s ease; /* Safari y Chrome */
+                -moz-transition:all .9s ease; /* Firefox */
+                -o-transition:all .9s ease; /* IE 9 */
+                -ms-transition:all .9s ease; /* Opera */
+                
+            }
+
+            :hover img {
+                -webkit-transform:scale(1.20);
+                -moz-transform:scale(1.20);
+                -ms-transform:scale(1.20);
+                -o-transform:scale(1.20);
+                transform:scale(1.20);
+            }
+        }
+
+        &__telefono{
+            display: flex;
+            flex-direction:column-reverse;
+            align-items: flex-end;
+            font-weight: bolder;
+            letter-spacing: 0.063rem;
+        }
+        
+        &__mapa{
+            height: 9.375rem;
+            width: 12.5rem;
+            margin: 0.373rem;
+        }
+    }
+}

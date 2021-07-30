@@ -1,0 +1,505 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+  background-color: #B2B1B9;
+  height: 100%;
+}
+
+#grilla {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "header header header" "principal principal principal" "footer footer footer";
+  -ms-grid-rows: 20% 70% 25%;
+      grid-template-rows: 20% 70% 25%;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  row-gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #B2B1B9;
+}
+
+/* HEADER */
+.header {
+  background-color: #2C2E43;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: header;
+  border: 1px black;
+  border-style: ridge;
+  margin: 0.313rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* FOOTER */
+.footer {
+  clear: both;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: footer;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #B2B1B9;
+}
+
+/* CONTENIDO INDEX */
+#principal {
+  background-color: white;
+  padding: 0.625rem;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: principal;
+  border: 1px black;
+  border-style: ridge;
+  margin: 0.313rem;
+}
+
+#principal .principal__contenedorFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 25vh;
+}
+
+#principal .principal__contenedorFlex h2 {
+  font-size: 36px;
+  letter-spacing: 1px;
+  text-decoration: underline;
+}
+
+#principal .principal__contenedorFlex__position {
+  position: relative;
+}
+
+#principal .principal__contenedorFlex__position__texto {
+  background-color: #FFD523;
+  height: 300px;
+  width: 50rem;
+  position: absolute;
+  z-index: 2;
+  left: 50rem;
+  top: 5rem;
+  padding: 20px;
+  text-align: justify;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#principal .principal__contenedorFlex__position__texto p {
+  font-size: 24px;
+  padding: 10px;
+}
+
+#principal .principal__contenedorFlex__position__carrusel {
+  width: 60%;
+  height: 100%;
+  z-index: 1;
+  margin-left: 5rem;
+}
+
+#principal .principal__contenedorFlex__position__carrusel .d-block {
+  height: 35.938rem;
+}
+
+/*formulario de contacto*/
+.contenedorFormulario {
+  margin: 00.313rem;
+}
+
+.contenedorFormulario form {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: principal;
+  background-color: whitesmoke;
+  padding: 0.625rem;
+  height: 95%;
+  border-radius: 5px;
+  border: 1px darkgrey solid;
+}
+
+.contenedorFormulario form .fieldsetContacto {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contenedorFormulario form .fieldsetContacto .contenedorInformacion {
+  background-color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.contenedorFormulario form .fieldsetContacto .contenedorInformacion .informacionContacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.contenedorFormulario form .fieldsetContacto .contenedorInformacion .informacionContacto .tituloInput {
+  padding: 0.313rem;
+  margin: 0.625rem;
+  width: 100%;
+}
+
+.contenedorFormulario form .fieldsetContacto .contenedorInformacion .informacionContacto .tituloInput input {
+  margin-right: 5rem;
+  width: 100%;
+}
+
+.contenedorFormulario form .fieldsetContacto .contenedorInformacion .informacionContacto .tituloInput textarea {
+  width: 100%;
+}
+
+.contenedorFormulario form .fieldsetContacto .contenedorInformacion .informacionContacto .dondeConocio {
+  background-color: whitesmoke;
+}
+
+.contenedorFormulario form .fieldsetContacto .contenedorInformacion .informacionContacto .dondeConocio h3 {
+  margin: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+  padding-bottom: 00.373rem;
+}
+
+.contenedorFormulario form .fieldsetContacto .contenedorInformacion .informacionContacto .dondeConocio .contenedorCheckbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contenedorFormulario form .fieldsetContacto .contenedorInformacion .informacionContacto .dondeConocio .contenedorCheckbox .form-check label {
+  font-size: 16px;
+}
+
+.contenedorFormulario form .fieldsetContacto .contenedorInformacion .flexContainerServicio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contenedorFormulario form .fieldsetContacto .contenedorInformacion .flexContainerServicio .tituloInput {
+  padding: 0.313rem;
+  margin: 0.625rem;
+  width: 100%;
+}
+
+.contenedorFormulario form .fieldsetContacto .contenedorInformacion .flexContainerServicio .tituloInput input {
+  margin-right: 5rem;
+  width: 100%;
+}
+
+.contenedorFormulario form .fieldsetContacto .contenedorInformacion .flexContainerServicio .tituloInput textarea {
+  width: 100%;
+}
+
+.contenedorFormulario form .fieldsetContacto .contenedorInformacion .flexContainerServicio label {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.contenedorFormulario form .fieldsetContacto .contenedorInformacion .flexContainerServicio .tipoServicio {
+  background-color: whitesmoke;
+  width: 100%;
+}
+
+.contenedorFormulario form .fieldsetContacto .contenedorInformacion .flexContainerServicio .tipoServicio h3 {
+  margin: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+  padding-bottom: 00.373rem;
+}
+
+.contenedorFormulario form .fieldsetContacto .contenedorInformacion .flexContainerServicio .tipoServicio select {
+  width: 100%;
+}
+
+.contenedorFormulario form .fieldsetContacto .flexContainerBotones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contenedorFormulario form .fieldsetContacto .flexContainerBotones .botonesFormulario {
+  background-color: whitesmoke;
+  margin: 15px;
+  font-size: 24px;
+  clear: both;
+}
+
+.contenedorFormulario form .fieldsetContacto .flexContainerBotones .botonesFormulario button {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 0.313rem;
+}
+
+.contenedorFormulario form .fieldsetContacto .flexContainerBotones .botonesFormulario input {
+  font-size: 1rem;
+  padding: 0.625rem;
+  margin: 0.313rem;
+}
+
+.contenedorFormulario form .fieldsetContacto .flexContainerBotones .botonesFormulario select {
+  font-size: 1rem;
+  padding: 0.625rem;
+  margin: 0.313rem;
+}
+
+#servicios {
+  background-color: whitesmoke;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: principal;
+}
+
+#servicios .servicios__contenedor {
+  height: 100%;
+  padding: 5px;
+}
+
+#servicios .servicios__contenedor__fieldset {
+  height: 100%;
+  border: thin darkgrey solid;
+}
+
+#servicios .servicios__contenedor__fieldset legend {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 0.625rem;
+}
+
+#servicios .servicios__contenedor__fieldset__tabla {
+  height: 90%;
+  padding-left: 0.75rem;
+}
+
+#servicios .servicios__contenedor__fieldset__tabla__tablaServicios {
+  background-color: white;
+  height: 28rem;
+  margin: 00.373rem;
+  border-radius: 0.313rem;
+  height: 100%;
+  width: 97%;
+  border: "2";
+  cellspacing: 5;
+}
+
+#servicios .servicios__contenedor__fieldset__tabla__tablaServicios td {
+  border: 3px dimgray double;
+  padding: 0.313rem;
+}
+
+#servicios .servicios__contenedor__fieldset__tabla__tablaServicios__titulos {
+  font-size: 20px;
+  font-weight: bold;
+  height: 2rem;
+  width: 5.5rem;
+  text-align: center;
+}
+
+#servicios .servicios__contenedor__fieldset__tabla__tablaServicios__titulos contenido {
+  text-align: center;
+}
+
+/* ELEMENTOS HEADER */
+.header__titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 7vh;
+  padding: 5px;
+  font-size: 40px;
+}
+
+.header__titulo h1 {
+  font-family: 'Tourney', cursive;
+  font-size: 48px;
+}
+
+.header__titulo h1:hover {
+  -webkit-filter: drop-shadow(10px 10px 15px #595260);
+          filter: drop-shadow(10px 10px 15px #595260);
+}
+
+.header__titulo a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.header .bg-light {
+  background-color: #FFD523 !important;
+}
+
+/*ELEMENTOS FOOTER*/
+.footer__barraClientes {
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid black;
+  background-color: #2c2e43;
+  margin: 0.313rem;
+  padding: 0.313rem;
+}
+
+.footer__barraClientes img {
+  height: 7rem;
+  width: 8rem;
+  padding: 00.313rem;
+}
+
+.footer__barraClientes img:hover {
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
+}
+
+.footer__barraRedesSociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2c2e43b5;
+  text-align: center;
+  border: 1px solid black;
+  margin: 0.313rem;
+}
+
+.footer__barraRedesSociales__logos {
+  display: inline;
+  margin: 5px;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.footer__barraRedesSociales__logos img {
+  height: 30px;
+  width: 30px;
+  margin: 3px;
+  -webkit-transition: all .9s ease;
+  /* Safari y Chrome */
+  -moz-transition: all .9s ease;
+  /* Firefox */
+  -o-transition: all .9s ease;
+  /* IE 9 */
+  -ms-transition: all .9s ease;
+  /* Opera */
+}
+
+.footer__barraRedesSociales__logos :hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.footer__barraRedesSociales__telefono {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-weight: bolder;
+  letter-spacing: 0.063rem;
+}
+
+.footer__barraRedesSociales__mapa {
+  height: 9.375rem;
+  width: 12.5rem;
+  margin: 0.373rem;
+}
+
+/* MEDIA QUERIES*/
+/*# sourceMappingURL=style.css.map */

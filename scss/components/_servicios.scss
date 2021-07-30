@@ -1,0 +1,53 @@
+#servicios{
+    background-color: whitesmoke;
+    grid-area: principal;
+
+    .servicios__contenedor{
+        height: 100%;   
+        padding: 5px;
+
+        &__fieldset{
+            height: 100%;
+            border: thin darkgrey solid;
+
+            legend{
+                font-size: 24px;
+                font-weight: bold;
+                margin-left: 0.625rem;
+            }
+
+            &__tabla{
+                height: 90%;
+                padding-left: 0.75rem;
+
+                &__tablaServicios{    
+                    background-color: white;
+                    height: 28rem;
+                    margin: 00.373rem;
+                    border-radius: 0.313rem;
+                    height: 100%;
+                    width: 97%;
+                    border: "2";
+                    cellspacing: 5;
+
+                    td {
+                        border: 3px dimgray double;
+                        padding: 0.313rem;
+                    }
+
+                    &__titulos{
+                        font-size: 20px;
+                        font-weight: bold;
+                        height: 2rem;
+                        width: 5.5rem;
+                        text-align: center;
+
+                        contenido{
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

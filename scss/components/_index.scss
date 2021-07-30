@@ -1,0 +1,56 @@
+/* CONTENIDO INDEX */
+#principal{
+    background-color: white;
+    padding: 0.625rem;
+    grid-area: principal;
+    border: 1px black;
+    border-style: ridge;
+    margin: 0.313rem;
+
+    .principal__contenedorFlex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 25vh;
+
+        h2{
+            font-size: 36px;
+            letter-spacing: 1px;
+            text-decoration: underline;
+        }
+
+        &__position{
+            position: relative;
+
+            &__texto{
+                background-color: $colorAmarillo;
+                height: 300px;
+                width: 50rem;
+                position: absolute;
+                z-index: 2;
+                left: 50rem;
+                top: 5rem;
+                padding: 20px;
+                text-align: justify;
+                border: 1px solid black;
+                border-radius: 10px;
+
+                p{
+                    font-size: 24px;
+                    padding: 10px;
+                }
+            }
+           
+            &__carrusel{
+                width: 60%;
+                height: 100%;
+                z-index: 1;
+                margin-left: 5rem;
+
+                .d-block{
+                    height: 35.938rem;
+                }
+            }
+        }
+    }
+}
