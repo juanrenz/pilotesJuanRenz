@@ -1,43 +1,20 @@
-#grilla{
-    display: grid;
-
-    grid-template-areas: 
-    "header header header"
-    "principal principal principal"
-    "footer footer footer";
-
-    grid-template-rows: 20% 70% 25%;
-
-    grid-template-columns: 100%;
-
-    row-gap: 10px;
-
-    justify-content: center;
-
-    height: 100vh;
-    margin: 0;
-
-    background-color: $colorGris;
-}
-
 /* HEADER */
 
 .header{
     background-color: $colorAzul;
-    grid-area: header;
     border: 1px black;
     border-style: ridge;
     margin: 0.313rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 /* FOOTER */
 
 .footer{
     clear: both;
-    grid-area: footer;
     height: fit-content;
     background-color: $colorGris;
 }

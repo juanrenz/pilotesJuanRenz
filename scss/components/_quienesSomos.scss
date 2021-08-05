@@ -1,0 +1,42 @@
+.quienesSomos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &__flex{
+        display: flex;
+        height: 40rem;
+        flex-direction: column;
+        justify-content: center;
+
+        &__contenedorTitulo{
+            background-color: $colorAmarillo;
+            border: 1px black solid;
+            width: 37.5rem;
+            border-radius: 3px;
+            margin: 0.373rem;
+            padding: 00.373rem;
+
+        }
+
+        &__contenedorTexto{
+            background-color: $colorAmarillo;
+            border: 1px black solid;
+            width: 37.5rem;
+            border-radius: 3px;
+            margin: 0.373rem;
+            padding: 00.373rem;;
+            
+        }
+    }
+
+    &__contenedorMapa{
+        background-color: $colorAmarillo;
+        border: 1px black solid;
+        border-radius: 3px;
+        margin: 0.373rem;
+        padding: 00.373rem;
+
+    }
+
+}

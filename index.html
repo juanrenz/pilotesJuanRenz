@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,106 +10,148 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Tourney:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">    
     <link rel="stylesheet" href="scss/style.css">
-</head>
-<body>
-    <div id="grilla">
-        <header class="header">
-          <div class="header__titulo">
-              <a href="index.html"><h1>MICROPILOTES Y PILOTES IN SITU</h1></a>
-          </div> 
-          <!-- elementos barra de navegacion -->
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">INICIO</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarText">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                      <a class="nav-link" href="servicios.html">SERVICIOS</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contacto.html">CONTACTO</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
-        </header>
-        <!-- contenido principal, en esta seccion la idea es tener imagenes de los trabajos junto con una descripcion de la empresa o algun servicio especifico -->
-        <section id="principal">    
-            <div class="principal__contenedorFlex">
-                <h2>NOSOTROS</h2>
-                <div class="principal__contenedorFlex__position">
-                    <div class="principal__contenedorFlex__position__texto">
-                        <p>
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                        laborum."
-                        </p>
-                    </div> 
-                    <div class="principal__contenedorFlex__position__carrusel">
-                      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="img/carrusel1.jpg" class="d-block w-100" alt="carrusel1">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="img/carrusel2.jpg" class="d-block w-100" alt="carrusel2">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="img/carrusel3.jpg" class="d-block w-100" alt="carrusel3">
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                      </div>
-                    </div>   
-                </div>
+  </head>
+  <body>
+      <header class="header">
+        <div class="header__titulo">
+          <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+        </div> 
+        <!-- elementos barra de navegacion -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">INICIO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="servicios.html">SERVICIOS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="quienes_somos.html">QUIENES SOMOS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">CONTACTO</a>
+                </li>
+              </ul>
             </div>
-        </section>    
-        <footer class="footer">
-            <div class="footer__barraClientes">
-                <!-- barra con logos de clientes -->
-                <img src="https://cdn.appdesign.dev/wp-content/uploads/2015/09/logo-icon.png" alt="logo-empresa">
-                <img src="https://cdn.appdesign.dev/wp-content/uploads/2015/09/logo-icon.png" alt="logo-empresa">
-                <img src="https://cdn.appdesign.dev/wp-content/uploads/2015/09/logo-icon.png" alt="logo-empresa">
-                <img src="https://cdn.appdesign.dev/wp-content/uploads/2015/09/logo-icon.png" alt="logo-empresa">
-                <img src="https://cdn.appdesign.dev/wp-content/uploads/2015/09/logo-icon.png" alt="logo-empresa">
-            </div>  
-            <!-- barra inferior con datos de contacto y redes sociales -->         
-            <div class="footer__barraRedesSociales">
-              <div>   
-                <div class="footer__barraRedesSociales__logos">
-                    <a href=""><img src="https://image.flaticon.com/icons/png/512/87/87390.png" alt="logoInstagram"></a>
-                </div>
-                <div class="footer__barraRedesSociales__logos">
-                    <a href=""><img src="https://image.flaticon.com/icons/png/512/1051/1051360.png" alt="logoFacebook"></a>
-                </div>
-                <div class="footer__barraRedesSociales__logos">
-                    <a href=""><img src="https://image.flaticon.com/icons/png/512/1384/1384023.png" alt="logoWhatsapp"></a>
-                </div>   
-              </div>  
-                <div class="footer__telefono">
-                    <p>Telefono: 1111111111</p>
-                    <p>E-Mail: pilotes@pilotes.com.ar</p>
-                </div>
-                <div class="footer__mapa">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3357.7435239341758!2d-63.70736654871017!3d-32.69286506632425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cdc9bb5257e7cd%3A0xf923f0e0001d7fb2!2sRenz%20Perforaciones!5e0!3m2!1ses-419!2sar!4v1625781631137!5m2!1ses-419!2sar" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
+          </div>
+        </nav>
+      </header>
+      <!-- contenido principal, en esta seccion la idea es tener imagenes de los trabajos junto con una descripcion de la empresa o algun servicio especifico -->
+      <section id="principal">    
+          <div class="principal__contenedorFlex">
+              <h2>NOSOTROS</h2>
+              <div class="principal__contenedorFlex__position">
+                  <div class="principal__contenedorFlex__position__texto">
+                      <p>
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                      pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                      laborum."
+                      </p>
+                  </div> 
+                  <div class="principal__contenedorFlex__position__carrusel">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="img/carrusel1.jpg" class="d-block w-100" alt="carrusel1">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/carrusel2.jpg" class="d-block w-100" alt="carrusel2">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/carrusel3.jpg" class="d-block w-100" alt="carrusel3">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>   
               </div>
-        </footer>
-    </div>
+          </div>
+      </section>    
+      <footer class="footer">
+        <div class="footer__tituloBarraClientes">
+          <h4>CONFIAN EN NOSOTROS</h4>
+        </div>
+        <div class="footer__barraClientes">    
+            <!-- barra con logos de clientes -->
+            <div class="slider">
+              <div class="slide-track">
+                  <div class="slide">
+                      <img src="https://camaracapym.com.ar/images/agd.jpg" height="100" width="250" alt="" />
+                  </div>
+                  <div class="slide">
+                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+                  </div>
+                  <div class="slide">
+                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+                  </div>
+                  <div class="slide">
+                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+                  </div>
+                  <div class="slide">
+                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+                  </div>
+                  <div class="slide">
+                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+                  </div>
+                  <div class="slide">
+                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+                  </div>
+                  <div class="slide">
+                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+                  </div>
+                  <div class="slide">
+                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+                  </div>
+                  <div class="slide">
+                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+                  </div>
+                  <div class="slide">
+                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+                  </div>
+                  <div class="slide">
+                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+                  </div>
+                  <div class="slide">
+                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+                  </div>
+                  <div class="slide">
+                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+                  </div>
+              </div>
+          </div>
+        </div>  
+        <!-- barra inferior con datos de contacto y redes sociales -->         
+        <div class="footer__barraRedesSociales">
+          <div>   
+            <div class="footer__barraRedesSociales__logos">
+                <a href=""><img src="https://image.flaticon.com/icons/png/512/87/87390.png" alt="logoInstagram"></a>
+            </div>
+            <div class="footer__barraRedesSociales__logos">
+                <a href=""><img src="https://image.flaticon.com/icons/png/512/1051/1051360.png" alt="logoFacebook"></a>
+            </div>
+            <div class="footer__barraRedesSociales__logos">
+                <a href=""><img src="https://image.flaticon.com/icons/png/512/1384/1384023.png" alt="logoWhatsapp"></a>
+            </div>   
+          </div>  
+          <div class="footer__barraRedesSociales__telefono">
+            <p>Telefono: 3534189639</p>
+            <p>E-Mail: pilotes@pilotes.com.ar</p>
+          </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
-</body>
+  </body>
 </html>

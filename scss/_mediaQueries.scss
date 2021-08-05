@@ -1,6 +1,18 @@
 /* MEDIA QUERIES*/
 
-@media (max-width: 575.98px) {  }
+@media (max-width: 575.98px) { 
+    
+    .header__titulo{
+        font-size: 16px;
+    }
+
+
+    .principal__contenedorFlex__position__texto{
+        position: inherit;
+    }
+
+
+ }
 
 @media (min-width: 576px) and (max-width: 767.98px) {  }
 

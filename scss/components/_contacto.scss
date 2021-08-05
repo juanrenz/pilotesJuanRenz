@@ -2,14 +2,13 @@
 
 .contenedorFormulario{
     margin: 00.313rem;
+    background-color: $colorGris;
     
         form{
-        grid-area: principal;
         background-color: whitesmoke;
         padding: 0.625rem;
         height: 95%;
-        border-radius: 5px;
-        border: 1px darkgrey solid;
+        border: 1px black solid;
 
         .fieldsetContacto{
             height: 100%;
