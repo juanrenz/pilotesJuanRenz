@@ -68,6 +68,7 @@ body {
   font-size: 36px;
   letter-spacing: 1px;
   text-decoration: underline;
+  padding: 3px;
 }
 
 #principal .principal__contenedorFlex__position {
