@@ -2,22 +2,316 @@
 
 @media (max-width: 575.98px) { 
     
-    .header__titulo{
-        font-size: 16px;
+    .header{
+        flex-direction: column;
+        align-items: center;
+
+        .header__titulo{
+            margin: 1px;
+        }
+
+        .navbar{
+            width: 100%;
+        }
     }
 
+    /* CONTENIDO PRINCIPAL */
 
-    .principal__contenedorFlex__position__texto{
-        position: inherit;
+    .principal__contenedorFlex{
+        flex-direction: column;
+
+        &__position__texto{
+            position: relative!important;
+            height: auto!important;
+            width: auto!important;
+            right: auto!important;
+            top: auto!important;
+        }
+        
+        &__position__carrusel{
+            display: none;
+        }
     }
 
+    /* QUIENES SOMOS */
+    .quienesSomos{
+        flex-direction: column;
 
+        &__flex{
+            height: auto;
+            align-items: center;
+
+            &__contenedorTexto{
+                width: auto;
+            }
+        
+        }
+        
+        &__contenedorMapa{
+            display: none;
+
+            &__mapa{
+                display: none;
+            }
+
+        }
+    }
+
+    /*CONTACTO*/
+
+    .contenedorInformacion{
+        flex-direction: column;
+
+        .informacionContacto{
+            width: auto!important;
+
+            .tituloInput{
+                width: 100%!important;
+            }
+
+            .dondeConocio{
+                width: 100%!important;
+
+                .form-check{
+                    margin: 2px;
+                }
+                
+            }
+        }
+
+        .flexContainerServicio{
+            width: auto!important;
+
+            .tituloInput{
+                width: 100%!important;
+            }
+
+            .tipoServicio{
+                width: 100%!important;
+            }
+        }
+    }
  }
 
-@media (min-width: 576px) and (max-width: 767.98px) {  }
+@media (min-width: 576px) and (max-width: 767.98px) { 
 
-@media (min-width: 768px) and (max-width: 991.98px) {  }
+    .header{
+        flex-direction: column;
+        align-items: center;
 
-@media (min-width: 992px) and (max-width: 1199.98px) {  }
+        .header__titulo{
+            margin: 1px;
+        }
+
+        .navbar{
+            width: 100%;
+        }
+    }
+
+    /* CONTENIDO PRINCIPAL */
+
+    .principal__contenedorFlex{
+        flex-direction: column;
+
+        &__position__texto{
+            position: relative!important;
+            height: auto!important;
+            width: auto!important;
+            right: auto!important;
+            top: auto!important;
+        }
+        
+        &__position__carrusel{
+            display: none;
+        }
+
+    }
+
+    /* QUIENES SOMOS */
+    .quienesSomos{
+        flex-direction: column;
+
+        &__flex{
+            height: auto;
+            align-items: center;
+
+            &__contenedorTexto{
+                width: auto;
+            }
+        
+        }
+        
+        &__contenedorMapa{
+            width: none;
+
+            &__mapa{
+                display: none;
+            }
+
+        }
+    }
+
+     /*CONTACTO*/
+
+     .contenedorInformacion{
+        flex-direction: column;
+
+        .informacionContacto{
+            width: auto!important;
+
+            .tituloInput{
+                width: 100%!important;
+            }
+
+            .dondeConocio{
+                width: 100%!important;
+
+                .form-check{
+                    margin: 2px;
+                }
+                
+            }
+        }
+
+        .flexContainerServicio{
+            width: auto!important;
+
+            .tituloInput{
+                width: 100%!important;
+            }
+
+            .tipoServicio{
+                width: 100%!important;
+            }
+        }
+    }
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   
+    .header{
+        flex-direction: column;
+        align-items: center;
+
+        .header__titulo{
+            margin: 1px;
+        }
+
+        .navbar{
+            width: 100%;
+        }
+    }
+
+    /* CONTENIDO PRINCIPAL */
+
+    .principal__contenedorFlex{
+        flex-direction: column;
+
+        &__position__texto{
+            position: relative!important;
+            height: auto!important;
+            width: auto!important;
+            right: auto!important;
+            top: auto!important;
+        }
+        
+        &__position__carrusel{
+            display: none;
+        }
+
+    }
+    
+    .quienesSomos{
+        flex-direction: column;
+
+        &__flex{
+            height: 100%;
+            align-items: center;
+
+            &__contenedorTexto{
+                width: auto;
+            }
+        
+        }
+        
+        &__contenedorMapa{
+            width: auto;
+
+        }
+    }
+
+     /*CONTACTO*/
+
+     .contenedorInformacion{
+        flex-direction: column;
+
+        .informacionContacto{
+            width: auto!important;
+
+            .tituloInput{
+                width: 100%!important;
+            }
+
+            .dondeConocio{
+                width: 100%!important;
+
+                .form-check{
+                    margin: 2px;
+                }
+                
+            }
+        }
+
+        .flexContainerServicio{
+            width: auto!important;
+
+            .tituloInput{
+                width: 100%!important;
+            }
+
+            .tipoServicio{
+                width: 100%!important;
+            }
+        }
+    }
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    /* CONTENIDO PRINCIPAL */
+
+    .principal__contenedorFlex{
+        flex-direction: column;
+
+        &__position__texto{
+            position: relative!important;
+            height: auto!important;
+            width: 50!important;
+            right: auto!important;
+            top: auto!important;
+        }
+        
+        &__position__carrusel{
+            display: none;
+        }
+    }
+
+    /*QUIENES SOMOS*/
+
+        .quienesSomos__flex{
+            height: auto;
+            align-items: center;
+
+            &__contenedorTexto{
+                width: auto;
+            }
+        
+        }
+        
+        &__contenedorMapa{
+            width: auto;
+        }
+ }
+ 
 
 @media (min-width: 1200px) { }

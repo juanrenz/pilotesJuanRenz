@@ -2,48 +2,52 @@
 
     .servicios__contenedor{
         height: 35rem;   
-        margin: 5px;
-        padding: 5px;
+        margin: 10px;
+        padding: 1px;
         border: 1px $colorGrisOscuro solid;
 
         &__fieldset{
             height: 100%;
+            background-color: whitesmoke;
 
             legend{
                 font-size: 24px;
                 font-weight: bold;
                 margin-left: 0.625rem;
+                padding: 3px;
             }
 
             &__tabla{
+                background-color: whitesmoke;
                 height: 90%;
-                padding-left: 0.75rem;
+                border: 1px solid $colorGris;
+                margin: 1px;
 
-                &__tablaServicios{    
-                    background-color: white;
-                    height: 28rem;
-                    margin: 00.373rem;
-                    border-radius: 0.313rem;
+                .table{
                     height: 100%;
-                    width: 97%;
-                    border: "2";
-                    cellspacing: 5;
+                    
+                    td{
+                        border: 1px solid $colorGris;
 
-                    td {
-                        border: 3px dimgray double;
-                        padding: 0.313rem;
+                        p{
+                            position: relative;
+                            top: 35%;
+                        }
+
+                        ul{
+                            position: relative;
+                            top: 25%;
+                        }
+
+                        ol{
+                            position: relative;
+                            top: 20%;
+                        }
                     }
 
-                    &__titulos{
-                        font-size: 20px;
-                        font-weight: bold;
-                        height: 2rem;
-                        width: 5.5rem;
+                    th{
+                        border: 1px solid $colorGris;
                         text-align: center;
-
-                        contenido{
-                            text-align: center;
-                        }
                     }
                 }
             }
