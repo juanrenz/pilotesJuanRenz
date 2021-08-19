@@ -7,16 +7,15 @@
         justify-content: left;
         height: fit-content;
         padding: 5px;
-        font-size: 40px;
 
         img{
             height: 200px;
             width: 200px;
-            padding-left: 5px;
+            margin-left: 10px;
         }
 
         img:hover{
-            filter: drop-shadow(2px 2px 5px $colorGrisOscuro);
+            filter: drop-shadow(2px 2px 5px black);
         }
 
         a{
@@ -29,7 +28,38 @@
     .navbar{
         height: fit-content;
         width: 40%;
+        font-size: 1rem;
+
+        .navbar-brand{
+            transition: all .5s;
+            padding: 3px;
+        }
+
+        .navbar-brand:hover{
+            border-bottom: 2px solid black;
+        }
+        
+        .nav-item{
+            transition: all .8s;
+            margin-left: 1px;
+            
+
+            .nav-link{
+                transition: all .8s;
+            }
+        }
+
+        .nav-item:hover{
+            border-bottom: 0.5px solid black;
+            
+        }
+
+        .nav-link:hover{
+            border-bottom: 0.5px solid black;
+        }
     }
+
+
 
     .bg-light{
         background-color: $colorAmarillo!important;
@@ -58,6 +88,7 @@
             color: $colorGris;
             padding-top: 1rem;
             letter-spacing: 2px;
+            font-size: 1.3rem;
         }
     }
 
@@ -71,22 +102,28 @@
         background-color: $colorAzul;
         margin: 0.313rem;
         margin-top: 0rem;
-        padding: 0.5rem;
 
-        img{
-            height: 7rem;
-            width: 8rem;
-            padding: 00.5rem;
-        }
+        .slide{
+            background-color: white;
+            margin-right: 2px;
+            margin-left: 2px;
 
-        img:hover{
-            filter: grayscale(50%);
+            img{
+                height: 7rem;
+                width: 8rem;
+                padding: 00.5rem;
+            }
+    
+            img:hover{
+                filter: grayscale(60%);
+            }
         }
+        
     }
     
     &__barraRedesSociales{
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: row;
         justify-content: space-around;
         align-items: center;
         background-color: #F1F1E6;
@@ -121,6 +158,15 @@
             }
         }
 
+        &__fiscal{
+            margin: 5px;
+            
+            img{
+                width: 70px;
+                height: 100px;
+            }
+        }
+
         &__telefono{
             display: flex;
             flex-direction:column-reverse;
@@ -130,7 +176,7 @@
 
             p{
                 color: $colorGrisOscuro;
-                font-size: 15px;
+                font-size: 0.9rem;
             }
         }
     }

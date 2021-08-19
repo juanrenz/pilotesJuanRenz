@@ -7,7 +7,8 @@
         display: flex;
         height: 40rem;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center;
 
         &__contenedorTitulo{
             background-color: $colorAmarillo;
@@ -16,7 +17,7 @@
             border-radius: 3px;
             margin: 0.373rem;
             padding: 00.373rem;
-
+            font-size: 1.9rem;
         }
 
         &__contenedorTexto{
@@ -26,7 +27,8 @@
             border-radius: 3px;
             margin: 0.373rem;
             padding: 00.373rem;;
-            
+            font-size: 1.1rem;
+            text-align: justify;
         }
     }
 

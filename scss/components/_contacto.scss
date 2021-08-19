@@ -15,6 +15,10 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            
+            legend{
+                text-align: center;
+            }
 
             .contenedorInformacion{
                 background-color:whitesmoke;;
@@ -30,8 +34,7 @@
 
                    
                     .tituloInput{
-                        padding: 0.313rem;
-                        margin: 0.625rem;
+                        margin-bottom: 0.625rem;
                         width: 100%;
 
                         input{
@@ -49,18 +52,24 @@
 
                         h3{
                             margin: 5px;
-                            font-size: 20px;
-                            font-weight: bolder;
+                            font-size: 1.1rem;
+                            font-weight: bold;
                             padding-bottom: 00.373rem;
                         }
 
                         .contenedorCheckbox{
                             display: flex;
                             flex-wrap: wrap;
-                            justify-content: space-between;
+                            align-content: center;
+                            justify-content: space-around;
 
+                            .form-check{
+                                margin-right: 0.1rem;
+                            }
+                            
                             .form-check label{
                                 font-size: 16px;
+                                
                             }
                         }
                     }
@@ -74,22 +83,25 @@
                     justify-content: space-around;
 
                     .tituloInput{
-                        padding: 0.313rem;
-                        margin: 0.625rem;
+                        margin-bottom: 0.625rem;
                         width: 100%;
 
                         input{
                             margin-right: 5rem;
                             width: 100%;
+                            font-size: 0.5rem;
                         }
 
                         textarea{
                             width: 100%;
+                            font-size: 0.9rem;
                         }
                     }
+
+                    
                     
                     label{
-                        font-size: 20px;
+                        font-size: 1rem;
                         font-weight: bolder;
                     }
 
@@ -99,13 +111,14 @@
 
                         h3{
                             margin: 5px;
-                            font-size: 20px;
-                            font-weight: bolder;
+                            font-size: 1.1rem;
+                            font-weight: bold;
                             padding-bottom: 00.373rem;
                         }
                         
                         select{
                             width: 100%;
+                            font-size: 00.9rem;
                         }
                     }
                 }
@@ -113,30 +126,35 @@
 
             .flexContainerBotones{
                 display: flex;
-                justify-content: center;
+                justify-content: flex-end;
 
                 .botonesFormulario{
                     background-color: whitesmoke;
                     margin: 15px;
-                    font-size: 24px;
+                    font-size: 1rem;
                     clear: both;
+                    margin-right: 50px;
 
                     button{
                         padding: 10px;
-                        font-size: 15px;
+                        font-size: 0.9rem;
                         border: 1px solid black;
                         border-radius: 3px;
                         margin: 0.313rem;
                     }
+
+                    button:hover{
+                        filter: drop-shadow(2px 2px 5px black);
+                    }
                     
                     input{
-                        font-size: 1rem;
+                        font-size: 0.9rem;
                         padding: 0.625rem;
                         margin: 0.313rem;
                     }
                     
                     select{
-                        font-size: 1rem;
+                        font-size: 0.9rem;
                         padding: 0.625rem;
                         margin: 0.313rem;
                     }

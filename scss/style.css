@@ -65,9 +65,8 @@ body {
 }
 
 #principal .principal__contenedorFlex h2 {
-  font-size: 36px;
+  font-size: 1.8rem;
   letter-spacing: 1px;
-  text-decoration: underline;
   padding: 3px;
 }
 
@@ -77,12 +76,12 @@ body {
 
 #principal .principal__contenedorFlex__position__texto {
   background-color: #EFC23A;
-  height: 300px;
-  width: 50rem;
+  height: 15.75rem;
+  width: 33rem;
   position: absolute;
   z-index: 2;
-  right: 6rem;
-  top: 7rem;
+  right: 12rem;
+  top: 9rem;
   padding: 20px;
   text-align: justify;
   border: 1px solid black;
@@ -90,8 +89,8 @@ body {
 }
 
 #principal .principal__contenedorFlex__position__texto p {
-  font-size: 24px;
-  padding: 10px;
+  font-size: 1.1rem;
+  text-align: justify;
 }
 
 #principal .principal__contenedorFlex__position__carrusel {
@@ -131,6 +130,10 @@ body {
           justify-content: space-between;
 }
 
+.contenedorFormulario form .fieldsetContacto legend {
+  text-align: center;
+}
+
 .contenedorFormulario form .fieldsetContacto .contenedorInformacion {
   background-color: whitesmoke;
   display: -webkit-box;
@@ -159,8 +162,7 @@ body {
 }
 
 .contenedorFormulario form .fieldsetContacto .contenedorInformacion .informacionContacto .tituloInput {
-  padding: 0.313rem;
-  margin: 0.625rem;
+  margin-bottom: 0.625rem;
   width: 100%;
 }
 
@@ -179,8 +181,8 @@ body {
 
 .contenedorFormulario form .fieldsetContacto .contenedorInformacion .informacionContacto .dondeConocio h3 {
   margin: 5px;
-  font-size: 20px;
-  font-weight: bolder;
+  font-size: 1.1rem;
+  font-weight: bold;
   padding-bottom: 00.373rem;
 }
 
@@ -190,9 +192,14 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contenedorFormulario form .fieldsetContacto .contenedorInformacion .informacionContacto .dondeConocio .contenedorCheckbox .form-check {
+  margin-right: 0.1rem;
 }
 
 .contenedorFormulario form .fieldsetContacto .contenedorInformacion .informacionContacto .dondeConocio .contenedorCheckbox .form-check label {
@@ -216,22 +223,23 @@ body {
 }
 
 .contenedorFormulario form .fieldsetContacto .contenedorInformacion .flexContainerServicio .tituloInput {
-  padding: 0.313rem;
-  margin: 0.625rem;
+  margin-bottom: 0.625rem;
   width: 100%;
 }
 
 .contenedorFormulario form .fieldsetContacto .contenedorInformacion .flexContainerServicio .tituloInput input {
   margin-right: 5rem;
   width: 100%;
+  font-size: 0.5rem;
 }
 
 .contenedorFormulario form .fieldsetContacto .contenedorInformacion .flexContainerServicio .tituloInput textarea {
   width: 100%;
+  font-size: 0.9rem;
 }
 
 .contenedorFormulario form .fieldsetContacto .contenedorInformacion .flexContainerServicio label {
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: bolder;
 }
 
@@ -242,53 +250,59 @@ body {
 
 .contenedorFormulario form .fieldsetContacto .contenedorInformacion .flexContainerServicio .tipoServicio h3 {
   margin: 5px;
-  font-size: 20px;
-  font-weight: bolder;
+  font-size: 1.1rem;
+  font-weight: bold;
   padding-bottom: 00.373rem;
 }
 
 .contenedorFormulario form .fieldsetContacto .contenedorInformacion .flexContainerServicio .tipoServicio select {
   width: 100%;
+  font-size: 00.9rem;
 }
 
 .contenedorFormulario form .fieldsetContacto .flexContainerBotones {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .contenedorFormulario form .fieldsetContacto .flexContainerBotones .botonesFormulario {
   background-color: whitesmoke;
   margin: 15px;
-  font-size: 24px;
+  font-size: 1rem;
   clear: both;
+  margin-right: 50px;
 }
 
 .contenedorFormulario form .fieldsetContacto .flexContainerBotones .botonesFormulario button {
   padding: 10px;
-  font-size: 15px;
+  font-size: 0.9rem;
   border: 1px solid black;
   border-radius: 3px;
   margin: 0.313rem;
 }
 
+.contenedorFormulario form .fieldsetContacto .flexContainerBotones .botonesFormulario button:hover {
+  -webkit-filter: drop-shadow(2px 2px 5px black);
+          filter: drop-shadow(2px 2px 5px black);
+}
+
 .contenedorFormulario form .fieldsetContacto .flexContainerBotones .botonesFormulario input {
-  font-size: 1rem;
+  font-size: 0.9rem;
   padding: 0.625rem;
   margin: 0.313rem;
 }
 
 .contenedorFormulario form .fieldsetContacto .flexContainerBotones .botonesFormulario select {
-  font-size: 1rem;
+  font-size: 0.9rem;
   padding: 0.625rem;
   margin: 0.313rem;
 }
 
 #servicios .servicios__contenedor {
-  height: 35rem;
   margin: 10px;
   padding: 1px;
   border: 1px #595260 solid;
@@ -300,7 +314,7 @@ body {
 }
 
 #servicios .servicios__contenedor__fieldset legend {
-  font-size: 24px;
+  font-size: 1.3rem;
   font-weight: bold;
   margin-left: 0.625rem;
   padding: 3px;
@@ -322,23 +336,21 @@ body {
 }
 
 #servicios .servicios__contenedor__fieldset__tabla .table td p {
-  position: relative;
-  top: 35%;
+  font-size: 0.9rem;
 }
 
 #servicios .servicios__contenedor__fieldset__tabla .table td ul {
-  position: relative;
-  top: 25%;
+  font-size: 0.9rem;
 }
 
 #servicios .servicios__contenedor__fieldset__tabla .table td ol {
-  position: relative;
-  top: 20%;
+  font-size: 0.9rem;
 }
 
 #servicios .servicios__contenedor__fieldset__tabla .table th {
   border: 1px solid #B2B1B9;
   text-align: center;
+  font-size: 1rem;
 }
 
 .quienesSomos {
@@ -361,9 +373,12 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .quienesSomos__flex__contenedorTitulo {
@@ -373,6 +388,7 @@ body {
   border-radius: 3px;
   margin: 0.373rem;
   padding: 00.373rem;
+  font-size: 1.9rem;
 }
 
 .quienesSomos__flex__contenedorTexto {
@@ -382,6 +398,8 @@ body {
   border-radius: 3px;
   margin: 0.373rem;
   padding: 00.373rem;
+  font-size: 1.1rem;
+  text-align: justify;
 }
 
 .quienesSomos__contenedorMapa {
@@ -404,18 +422,17 @@ body {
   height: -moz-fit-content;
   height: fit-content;
   padding: 5px;
-  font-size: 40px;
 }
 
 .header__titulo img {
   height: 200px;
   width: 200px;
-  padding-left: 5px;
+  margin-left: 10px;
 }
 
 .header__titulo img:hover {
-  -webkit-filter: drop-shadow(2px 2px 5px #595260);
-          filter: drop-shadow(2px 2px 5px #595260);
+  -webkit-filter: drop-shadow(2px 2px 5px black);
+          filter: drop-shadow(2px 2px 5px black);
 }
 
 .header__titulo a {
@@ -428,6 +445,36 @@ body {
   height: -moz-fit-content;
   height: fit-content;
   width: 40%;
+  font-size: 1rem;
+}
+
+.header .navbar .navbar-brand {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  padding: 3px;
+}
+
+.header .navbar .navbar-brand:hover {
+  border-bottom: 2px solid black;
+}
+
+.header .navbar .nav-item {
+  -webkit-transition: all .8s;
+  transition: all .8s;
+  margin-left: 1px;
+}
+
+.header .navbar .nav-item .nav-link {
+  -webkit-transition: all .8s;
+  transition: all .8s;
+}
+
+.header .navbar .nav-item:hover {
+  border-bottom: 0.5px solid black;
+}
+
+.header .navbar .nav-link:hover {
+  border-bottom: 0.5px solid black;
 }
 
 .header .bg-light {
@@ -458,6 +505,7 @@ body {
   color: #B2B1B9;
   padding-top: 1rem;
   letter-spacing: 2px;
+  font-size: 1.3rem;
 }
 
 .footer__barraClientes {
@@ -475,28 +523,33 @@ body {
   background-color: #2C2E43;
   margin: 0.313rem;
   margin-top: 0rem;
-  padding: 0.5rem;
 }
 
-.footer__barraClientes img {
+.footer__barraClientes .slide {
+  background-color: white;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+.footer__barraClientes .slide img {
   height: 7rem;
   width: 8rem;
   padding: 00.5rem;
 }
 
-.footer__barraClientes img:hover {
-  -webkit-filter: grayscale(50%);
-          filter: grayscale(50%);
+.footer__barraClientes .slide img:hover {
+  -webkit-filter: grayscale(60%);
+          filter: grayscale(60%);
 }
 
 .footer__barraRedesSociales {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
@@ -535,6 +588,15 @@ body {
   transform: scale(1.2);
 }
 
+.footer__barraRedesSociales__fiscal {
+  margin: 5px;
+}
+
+.footer__barraRedesSociales__fiscal img {
+  width: 70px;
+  height: 100px;
+}
+
 .footer__barraRedesSociales__telefono {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -552,7 +614,7 @@ body {
 
 .footer__barraRedesSociales__telefono p {
   color: #595260;
-  font-size: 15px;
+  font-size: 0.9rem;
 }
 
 /* MEDIA QUERIES*/
@@ -691,7 +753,7 @@ body {
     width: auto;
   }
   .quienesSomos__contenedorMapa {
-    width: none;
+    display: none;
   }
   .quienesSomos__contenedorMapa__mapa {
     display: none;

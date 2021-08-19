@@ -1,7 +1,6 @@
 #servicios{
 
-    .servicios__contenedor{
-        height: 35rem;   
+    .servicios__contenedor{  
         margin: 10px;
         padding: 1px;
         border: 1px $colorGrisOscuro solid;
@@ -11,7 +10,7 @@
             background-color: whitesmoke;
 
             legend{
-                font-size: 24px;
+                font-size: 1.3rem;
                 font-weight: bold;
                 margin-left: 0.625rem;
                 padding: 3px;
@@ -30,24 +29,22 @@
                         border: 1px solid $colorGris;
 
                         p{
-                            position: relative;
-                            top: 35%;
+                            font-size: 0.9rem;
                         }
 
                         ul{
-                            position: relative;
-                            top: 25%;
+                            font-size: 0.9rem;
                         }
 
                         ol{
-                            position: relative;
-                            top: 20%;
+                            font-size: 0.9rem;
                         }
                     }
 
                     th{
                         border: 1px solid $colorGris;
                         text-align: center;
+                        font-size: 1rem;
                     }
                 }
             }
