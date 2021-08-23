@@ -84,7 +84,6 @@
     }
 
     &__barraClientes {
-        height: 15vh;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -93,6 +92,7 @@
         background-color: $colorAzul;
         margin: 0.313rem;
         margin-top: 0rem;
+        padding: 0.313rem;
 
         .slide {
             background-color: white;

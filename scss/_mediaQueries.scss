@@ -54,6 +54,11 @@
         }
     }
 
+    /*NOVEDADES*/
+    .novedades{
+        flex-direction: column;
+    }
+
     /*CONTACTO*/
 
     .contenedorInformacion {
@@ -149,6 +154,11 @@
         }
     }
 
+    /*NOVEDADES*/
+    .novedades{
+        flex-direction: column;
+    }
+
     /*CONTACTO*/
 
     .contenedorInformacion {
@@ -237,6 +247,11 @@
         &__contenedorMapa {
             width: auto;
         }
+    }
+
+    /*NOVEDADES*/
+    .novedades{
+        flex-direction: column;
     }
 
     /*CONTACTO*/
