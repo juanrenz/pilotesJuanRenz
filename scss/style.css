@@ -1,17 +1,17 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 body {
-  background-color: #B2B1B9 !important;
+  background-color: #b2b1b9 !important;
   height: 100%;
 }
 
 /* HEADER */
 .header {
-  background-color: #2C2E43;
+  background-color: #2c2e43;
   border: 1px black;
   border-style: ridge;
   margin: 0.313rem;
@@ -36,12 +36,12 @@ body {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  background-color: #B2B1B9;
+  background-color: #b2b1b9;
 }
 
 /* CONTENIDO INDEX */
 #principal {
-  background-color: white;
+  background-color: whitesmoke;
   padding: 0.625rem;
   border: 1px black;
   border-style: ridge;
@@ -56,9 +56,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -68,6 +65,7 @@ body {
   font-size: 1.8rem;
   letter-spacing: 1px;
   padding: 3px;
+  text-align: center;
 }
 
 #principal .principal__contenedorFlex__position {
@@ -75,7 +73,7 @@ body {
 }
 
 #principal .principal__contenedorFlex__position__texto {
-  background-color: #EFC23A;
+  background-color: #efc23a;
   height: 15.75rem;
   width: 33rem;
   position: absolute;
@@ -106,7 +104,7 @@ body {
 /*formulario de contacto*/
 .contenedorFormulario {
   margin: 00.313rem;
-  background-color: #B2B1B9;
+  background-color: #b2b1b9;
 }
 
 .contenedorFormulario form {
@@ -316,14 +314,15 @@ body {
 #servicios .servicios__contenedor__fieldset legend {
   font-size: 1.3rem;
   font-weight: bold;
-  margin-left: 0.625rem;
+  margin-top: 0.5rem;
   padding: 3px;
+  text-align: center;
 }
 
 #servicios .servicios__contenedor__fieldset__tabla {
   background-color: whitesmoke;
   height: 90%;
-  border: 1px solid #B2B1B9;
+  border: 1px solid #b2b1b9;
   margin: 1px;
 }
 
@@ -332,7 +331,7 @@ body {
 }
 
 #servicios .servicios__contenedor__fieldset__tabla .table td {
-  border: 1px solid #B2B1B9;
+  border: 1px solid #b2b1b9;
 }
 
 #servicios .servicios__contenedor__fieldset__tabla .table td p {
@@ -348,7 +347,7 @@ body {
 }
 
 #servicios .servicios__contenedor__fieldset__tabla .table th {
-  border: 1px solid #B2B1B9;
+  border: 1px solid #b2b1b9;
   text-align: center;
   font-size: 1rem;
 }
@@ -362,6 +361,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: whitesmoke;
+  border: 1px black;
+  border-style: ridge;
+  margin: 0.313rem;
+  padding: 0.625rem;
 }
 
 .quienesSomos__flex {
@@ -382,7 +386,7 @@ body {
 }
 
 .quienesSomos__flex__contenedorTitulo {
-  background-color: #EFC23A;
+  background-color: #efc23a;
   border: 1px black solid;
   width: 37.5rem;
   border-radius: 3px;
@@ -392,7 +396,7 @@ body {
 }
 
 .quienesSomos__flex__contenedorTexto {
-  background-color: #EFC23A;
+  background-color: #efc23a;
   border: 1px black solid;
   width: 37.5rem;
   border-radius: 3px;
@@ -403,7 +407,7 @@ body {
 }
 
 .quienesSomos__contenedorMapa {
-  background-color: #EFC23A;
+  background-color: #efc23a;
   border: 1px black solid;
   border-radius: 3px;
   margin: 0.373rem;
@@ -449,8 +453,8 @@ body {
 }
 
 .header .navbar .navbar-brand {
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   padding: 3px;
 }
 
@@ -459,14 +463,14 @@ body {
 }
 
 .header .navbar .nav-item {
-  -webkit-transition: all .8s;
-  transition: all .8s;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
   margin-left: 1px;
 }
 
 .header .navbar .nav-item .nav-link {
-  -webkit-transition: all .8s;
-  transition: all .8s;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
 }
 
 .header .navbar .nav-item:hover {
@@ -478,7 +482,7 @@ body {
 }
 
 .header .bg-light {
-  background-color: #EFC23A !important;
+  background-color: #efc23a !important;
 }
 
 /*ELEMENTOS FOOTER*/
@@ -495,14 +499,14 @@ body {
           align-items: center;
   border: 1px solid black;
   border-bottom: 0px transparent solid;
-  background-color: #2C2E43;
+  background-color: #2c2e43;
   margin: 0.313rem;
   margin-bottom: 0rem;
   padding: 1.5rem;
 }
 
 .footer__tituloBarraClientes h4 {
-  color: #B2B1B9;
+  color: #b2b1b9;
   padding-top: 1rem;
   letter-spacing: 2px;
   font-size: 1.3rem;
@@ -520,7 +524,7 @@ body {
           align-items: center;
   border: 1px solid black;
   border-top: 0px transparent solid;
-  background-color: #2C2E43;
+  background-color: #2c2e43;
   margin: 0.313rem;
   margin-top: 0rem;
 }
@@ -555,7 +559,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #F1F1E6;
+  background-color: #f1f1e6;
   text-align: center;
   border: 1px solid black;
   margin: 0.313rem;
@@ -573,13 +577,13 @@ body {
   height: 30px;
   width: 30px;
   margin: 3px;
-  -webkit-transition: all .9s ease;
+  -webkit-transition: all 0.9s ease;
   /* Safari y Chrome */
-  -moz-transition: all .9s ease;
+  -moz-transition: all 0.9s ease;
   /* Firefox */
-  -o-transition: all .9s ease;
+  -o-transition: all 0.9s ease;
   /* IE 9 */
-  -ms-transition: all .9s ease;
+  -ms-transition: all 0.9s ease;
   /* Opera */
 }
 
@@ -701,6 +705,13 @@ body {
   .contenedorInformacion .flexContainerServicio .tipoServicio {
     width: 100% !important;
   }
+  /*FOOTER*/
+  .footer__barraRedesSociales {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -785,6 +796,13 @@ body {
   }
   .contenedorInformacion .flexContainerServicio .tipoServicio {
     width: 100% !important;
+  }
+  /*FOOTER*/
+  .footer__barraRedesSociales {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -925,7 +943,7 @@ body {
 }
 
 .slider {
-  background: #2C2E43;
+  background: #2c2e43;
   -webkit-box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
           box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
   height: 100px;
@@ -935,9 +953,10 @@ body {
   width: 100%;
 }
 
-.slider::before, .slider::after {
-  background: -webkit-gradient(linear, left top, right top, from(#2C2E43), to(rgba(255, 255, 255, 0)));
-  background: linear-gradient(to right, #2C2E43 0%, rgba(255, 255, 255, 0) 100%);
+.slider::before,
+.slider::after {
+  background: -webkit-gradient(linear, left top, right top, from(#2c2e43), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(to right, #2c2e43 0%, rgba(255, 255, 255, 0) 100%);
   content: "";
   height: 100px;
   position: absolute;

@@ -1,47 +1,47 @@
-#servicios{
-
-    .servicios__contenedor{  
+#servicios {
+    .servicios__contenedor {
         margin: 10px;
         padding: 1px;
         border: 1px $colorGrisOscuro solid;
 
-        &__fieldset{
+        &__fieldset {
             height: 100%;
             background-color: whitesmoke;
 
-            legend{
+            legend {
                 font-size: 1.3rem;
                 font-weight: bold;
-                margin-left: 0.625rem;
+                margin-top: 0.5rem;
                 padding: 3px;
+                text-align: center;
             }
 
-            &__tabla{
+            &__tabla {
                 background-color: whitesmoke;
                 height: 90%;
                 border: 1px solid $colorGris;
                 margin: 1px;
 
-                .table{
+                .table {
                     height: 100%;
-                    
-                    td{
+
+                    td {
                         border: 1px solid $colorGris;
 
-                        p{
+                        p {
                             font-size: 0.9rem;
                         }
 
-                        ul{
+                        ul {
                             font-size: 0.9rem;
                         }
 
-                        ol{
+                        ol {
                             font-size: 0.9rem;
                         }
                     }
 
-                    th{
+                    th {
                         border: 1px solid $colorGris;
                         text-align: center;
                         font-size: 1rem;

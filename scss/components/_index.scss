@@ -1,27 +1,27 @@
 /* CONTENIDO INDEX */
-#principal{
-    background-color: white;
+#principal {
+    background-color: whitesmoke;
     padding: 0.625rem;
     border: 1px black;
     border-style: ridge;
     margin: 0.313rem;
 
-    .principal__contenedorFlex{
+    .principal__contenedorFlex {
         display: flex;
         flex-direction: column;
-        align-items: center;
         height: fit-content;
 
-        h2{
+        h2 {
             font-size: 1.8rem;
             letter-spacing: 1px;
             padding: 3px;
+            text-align: center;
         }
 
-        &__position{
+        &__position {
             position: relative;
 
-            &__texto{
+            &__texto {
                 background-color: $colorAmarillo;
                 height: 15.75rem;
                 width: 33rem;
@@ -34,18 +34,18 @@
                 border: 1px solid black;
                 border-radius: 10px;
 
-                p{
+                p {
                     font-size: 1.1rem;
                     text-align: justify;
                 }
             }
-           
-            &__carrusel{
+
+            &__carrusel {
                 width: 60%;
                 z-index: 1;
                 margin-left: 5rem;
 
-                .d-block{
+                .d-block {
                     height: 37rem;
                 }
             }

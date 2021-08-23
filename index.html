@@ -1,157 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="pilotes, micropilotes, cimientos, estructura">
-    <meta name="description" content="pilotes y micropilotes in situ, pagina empresarial">
-    <title>MICROPILOTES IN SITU</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Tourney:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">    
-    <link rel="stylesheet" href="scss/style.css">
-  </head>
-  <body>
-      <header class="header">
-        <div class="header__titulo">
-          <a href="index.html"><img src="img/logo.png" alt="logo"></a>
-        </div> 
-        <!-- elementos barra de navegacion -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">INICIO</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="pilotes, micropilotes, cimientos, estructura">
+  <meta name="description" content="pilotes y micropilotes in situ, pagina empresarial">
+  <title>MICROPILOTES IN SITU</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Tourney:wght@600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="scss/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__titulo">
+      <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+    </div>
+    <!-- elementos barra de navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">INICIO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="servicios.html">SERVICIOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quienes_somos.html">QUIENES SOMOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- contenido principal, en esta seccion la idea es tener imagenes de los trabajos junto con una descripcion de la empresa o algun servicio especifico -->
+  <section id="principal">
+    <div class="principal__contenedorFlex">
+      <h2>NOSOTROS</h2>
+      <div class="principal__contenedorFlex__position">
+        <div class="principal__contenedorFlex__position__texto">
+          <p>Creemos firmemente que el trabajo continuo de gestión de calidad garantizará una mejora ininterrumpida de
+            nuestros servicios en orden de exceder las expectativas de nuestros clientes mediante el seguimiento y la
+            aplicación de las normas adecuadas al sector.</p>
+          <p>Nuestra política de calidad establece la búsqueda de altos estándares de calidad para los servicios y pone
+            en manifiesto el compromiso de toda la organización con nuestros Clientes.</p>
+        </div>
+        <div class="principal__contenedorFlex__position__carrusel">
+          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/carrusel1.jpg" class="d-block w-100" alt="carrusel1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/carrusel2.jpg" class="d-block w-100" alt="carrusel2">
+              </div>
+              <div class="carousel-item">
+                <img src="img/carrusel3.jpg" class="d-block w-100" alt="carrusel3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="servicios.html">SERVICIOS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="quienes_somos.html">QUIENES SOMOS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contacto.html">CONTACTO</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
-      <!-- contenido principal, en esta seccion la idea es tener imagenes de los trabajos junto con una descripcion de la empresa o algun servicio especifico -->
-      <section id="principal">    
-          <div class="principal__contenedorFlex">
-              <h2>NOSOTROS</h2>
-              <div class="principal__contenedorFlex__position">
-                  <div class="principal__contenedorFlex__position__texto">
-                      <p>Creemos firmemente que el trabajo continuo de gestión de calidad garantizará una mejora ininterrumpida de nuestros servicios en orden de exceder las expectativas de nuestros clientes mediante el seguimiento y la aplicación de las normas adecuadas al sector.</p> 
-                      <p>Nuestra política de calidad establece la búsqueda de altos estándares de calidad para los servicios y pone en manifiesto el compromiso de toda la organización con nuestros Clientes.</p>
-                  </div> 
-                  <div class="principal__contenedorFlex__position__carrusel">
-                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                      <div class="carousel-inner">
-                        <div class="carousel-item active">
-                          <img src="img/carrusel1.jpg" class="d-block w-100" alt="carrusel1">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="img/carrusel2.jpg" class="d-block w-100" alt="carrusel2">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="img/carrusel3.jpg" class="d-block w-100" alt="carrusel3">
-                        </div>
-                      </div>
-                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                      </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                      </button>
-                    </div>
-                  </div>   
-              </div>
-          </div>
-      </section>    
-      <footer class="footer">
-        <div class="footer__tituloBarraClientes">
-          <h4>CONFIAN EN NOSOTROS</h4>
-        </div>
-        <div class="footer__barraClientes">    
-            <!-- barra con logos de clientes -->
-            <div class="slider">
-              <div class="slide-track">
-                  <div class="slide">
-                      <img src="https://camaracapym.com.ar/images/agd.jpg" height="100" width="250" alt="" />
-                  </div>
-                  <div class="slide">
-                      <img src="https://ss-static-01.esmsv.com/id/49038/productos/obtenerimagen/?id=58&useDensity=true&width=1864&height=939&tipoEscala=contain" height="100" width="250" alt="" />
-                  </div>
-                  <div class="slide">
-                      <img src="https://ss-static-01.esmsv.com/id/49038/productos/obtenerimagen/?id=63&useDensity=true&width=1864&height=939&tipoEscala=contain" height="100" width="250" alt="" />
-                  </div>
-                  <div class="slide">
-                      <img src="https://ss-static-01.esmsv.com/id/49038/productos/obtenerimagen/?id=26&useDensity=true&width=1864&height=939&tipoEscala=contain" height="100" width="250" alt="" />
-                  </div>
-                  <div class="slide">
-                      <img src="http://www.renzperforaciones.com/productos/obtenerimagen/?id=24&useDensity=true&width=839&height=471.9375&tipoEscala=contain" height="100" width="250" alt="" />
-                  </div>
-                  <div class="slide">
-                      <img src="https://ss-static-01.esmsv.com/id/49038/productos/obtenerimagen/?id=28&useDensity=true&width=1864&height=939&tipoEscala=contain" height="100" width="250" alt="" />
-                  </div>
-                  <div class="slide">
-                      <img src="http://www.renzperforaciones.com/productos/obtenerimagen/?id=32&useDensity=true&width=839&height=471.9375&tipoEscala=contain" height="100" width="250" alt="" />
-                  </div>
-                  <div class="slide">
-                      <img src=https://ss-static-01.esmsv.com/id/49038/productos/obtenerimagen/?id=39&useDensity=true&width=1864&height=939&tipoEscala=contain" height="100" width="250" alt="" />
-                  </div>
-                  <div class="slide">
-                      <img src="http://www.renzperforaciones.com/productos/obtenerimagen/?id=65&useDensity=true&width=839&height=471.9375&tipoEscala=contain" height="100" width="250" alt="" />
-                  </div>
-                  <div class="slide">
-                      <img src="https://ss-static-01.esmsv.com/id/49038/productos/obtenerimagen/?id=48&useDensity=true&width=1864&height=939&tipoEscala=contain" height="100" width="250" alt="" />
-                  </div>
-                  <div class="slide">
-                      <img src="https://ss-static-01.esmsv.com/id/49038/productos/obtenerimagen/?id=59&useDensity=true&width=1864&height=939&tipoEscala=contain" height="100" width="250" alt="" />
-                  </div>
-                  <div class="slide">
-                      <img src="https://ss-static-01.esmsv.com/id/49038/productos/obtenerimagen/?id=54&useDensity=true&width=1864&height=939&tipoEscala=contain" height="100" width="250" alt="" />
-                  </div>
-                  <div class="slide">
-                      <img src="https://ss-static-01.esmsv.com/id/49038/productos/obtenerimagen/?id=29&useDensity=true&width=1864&height=939&tipoEscala=contain" height="100" width="250" alt="" />
-                  </div>
-                  <div class="slide">
-                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
-                  </div>
-              </div>
-            </div>
-          </div>  
-        <!-- barra inferior con datos de contacto y redes sociales -->         
-        <div class="footer__barraRedesSociales">
-          <div>   
-            <div class="footer__barraRedesSociales__logos">
-                <a href=""><img src="https://image.flaticon.com/icons/png/512/87/87390.png" alt="logoInstagram"></a>
-            </div>
-            <div class="footer__barraRedesSociales__logos">
-                <a href=""><img src="https://image.flaticon.com/icons/png/512/1051/1051360.png" alt="logoFacebook"></a>
-            </div>
-            <div class="footer__barraRedesSociales__logos">
-                <a href=""><img src="https://image.flaticon.com/icons/png/512/1384/1384023.png" alt="logoWhatsapp"></a>
-            </div>  
-          </div>
-          <div class="footer__barraRedesSociales__fiscal">
-            <a href="https://www.afip.gob.ar/sitio/externos/default.asp"><img src="https://ss-static-01.esmsv.com/img/afip-sello.jpg" alt="data-fiscal"></a>
-          </div>   
-          <div class="footer__barraRedesSociales__telefono">
-            <p>Telefono: 3534189639</p>
-            <p>E-Mail: pilotes@pilotes.com.ar</p>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer__tituloBarraClientes">
+      <h4>CONFIAN EN NOSOTROS</h4>
+    </div>
+    <div class="footer__barraClientes">
+      <!-- barra con logos de clientes -->
+      <div class="slider">
+        <div class="slide-track">
+          <div class="slide">
+            <img src="https://camaracapym.com.ar/images/agd.jpg" height="100" width="250" alt="" />
+          </div>
+          <div class="slide">
+            <img
+              src="https://ss-static-01.esmsv.com/id/49038/productos/obtenerimagen/?id=58&useDensity=true&width=1864&height=939&tipoEscala=contain"
+              height="100" width="250" alt="" />
+          </div>
+          <div class="slide">
+            <img
+              src="https://ss-static-01.esmsv.com/id/49038/productos/obtenerimagen/?id=63&useDensity=true&width=1864&height=939&tipoEscala=contain"
+              height="100" width="250" alt="" />
+          </div>
+          <div class="slide">
+            <img
+              src="https://ss-static-01.esmsv.com/id/49038/productos/obtenerimagen/?id=26&useDensity=true&width=1864&height=939&tipoEscala=contain"
+              height="100" width="250" alt="" />
+          </div>
+          <div class="slide">
+            <img
+              src="http://www.renzperforaciones.com/productos/obtenerimagen/?id=24&useDensity=true&width=839&height=471.9375&tipoEscala=contain"
+              height="100" width="250" alt="" />
+          </div>
+          <div class="slide">
+            <img
+              src="https://ss-static-01.esmsv.com/id/49038/productos/obtenerimagen/?id=28&useDensity=true&width=1864&height=939&tipoEscala=contain"
+              height="100" width="250" alt="" />
+          </div>
+          <div class="slide">
+            <img
+              src="http://www.renzperforaciones.com/productos/obtenerimagen/?id=32&useDensity=true&width=839&height=471.9375&tipoEscala=contain"
+              height="100" width="250" alt="" />
+          </div>
+          <div class="slide">
+            <img
+              src=https://ss-static-01.esmsv.com/id/49038/productos/obtenerimagen/?id=39&useDensity=true&width=1864&height=939&tipoEscala=contain"
+              height="100" width="250" alt="" />
+          </div>
+          <div class="slide">
+            <img
+              src="http://www.renzperforaciones.com/productos/obtenerimagen/?id=65&useDensity=true&width=839&height=471.9375&tipoEscala=contain"
+              height="100" width="250" alt="" />
+          </div>
+          <div class="slide">
+            <img
+              src="https://ss-static-01.esmsv.com/id/49038/productos/obtenerimagen/?id=48&useDensity=true&width=1864&height=939&tipoEscala=contain"
+              height="100" width="250" alt="" />
+          </div>
+          <div class="slide">
+            <img
+              src="https://ss-static-01.esmsv.com/id/49038/productos/obtenerimagen/?id=59&useDensity=true&width=1864&height=939&tipoEscala=contain"
+              height="100" width="250" alt="" />
+          </div>
+          <div class="slide">
+            <img
+              src="https://ss-static-01.esmsv.com/id/49038/productos/obtenerimagen/?id=54&useDensity=true&width=1864&height=939&tipoEscala=contain"
+              height="100" width="250" alt="" />
+          </div>
+          <div class="slide">
+            <img
+              src="https://ss-static-01.esmsv.com/id/49038/productos/obtenerimagen/?id=29&useDensity=true&width=1864&height=939&tipoEscala=contain"
+              height="100" width="250" alt="" />
+          </div>
+          <div class="slide">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- barra inferior con datos de contacto y redes sociales -->
+    <div class="footer__barraRedesSociales">
+      <div>
+        <div class="footer__barraRedesSociales__logos">
+          <a href=""><img src="https://image.flaticon.com/icons/png/512/87/87390.png" alt="logoInstagram"></a>
+        </div>
+        <div class="footer__barraRedesSociales__logos">
+          <a href=""><img src="https://image.flaticon.com/icons/png/512/1051/1051360.png" alt="logoFacebook"></a>
+        </div>
+        <div class="footer__barraRedesSociales__logos">
+          <a href=""><img src="https://image.flaticon.com/icons/png/512/1384/1384023.png" alt="logoWhatsapp"></a>
+        </div>
+      </div>
+      <div class="footer__barraRedesSociales__fiscal">
+        <a href="https://www.afip.gob.ar/sitio/externos/default.asp"><img
+            src="https://ss-static-01.esmsv.com/img/afip-sello.jpg" alt="data-fiscal"></a>
+      </div>
+      <div class="footer__barraRedesSociales__telefono">
+        <p>Telefono: 3534189639</p>
+        <p>E-Mail: pilotes@pilotes.com.ar</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
 </html>

@@ -1,122 +1,118 @@
 /*formulario de contacto*/
 
-.contenedorFormulario{
+.contenedorFormulario {
     margin: 00.313rem;
     background-color: $colorGris;
-    
-        form{
+
+    form {
         background-color: whitesmoke;
         padding: 0.625rem;
         height: 95%;
         border: 1px black solid;
 
-        .fieldsetContacto{
+        .fieldsetContacto {
             height: 100%;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            
-            legend{
+
+            legend {
                 text-align: center;
             }
 
-            .contenedorInformacion{
-                background-color:whitesmoke;;
+            .contenedorInformacion {
+                background-color: whitesmoke;
                 display: flex;
                 justify-content: space-evenly;
                 align-items: stretch;
 
-                .informacionContacto{
+                .informacionContacto {
                     display: flex;
                     flex-direction: column;
                     width: 30rem;
                     justify-content: space-evenly;
 
-                   
-                    .tituloInput{
+                    .tituloInput {
                         margin-bottom: 0.625rem;
                         width: 100%;
 
-                        input{
+                        input {
                             margin-right: 5rem;
                             width: 100%;
                         }
 
-                        textarea{
+                        textarea {
                             width: 100%;
                         }
                     }
 
-                    .dondeConocio{
+                    .dondeConocio {
                         background-color: whitesmoke;
 
-                        h3{
+                        h3 {
                             margin: 5px;
                             font-size: 1.1rem;
                             font-weight: bold;
                             padding-bottom: 00.373rem;
                         }
 
-                        .contenedorCheckbox{
+                        .contenedorCheckbox {
                             display: flex;
                             flex-wrap: wrap;
                             align-content: center;
                             justify-content: space-around;
 
-                            .form-check{
+                            .form-check {
                                 margin-right: 0.1rem;
                             }
-                            
-                            .form-check label{
+
+                            .form-check label {
                                 font-size: 16px;
-                                
                             }
                         }
                     }
                 }
 
-                .flexContainerServicio{
+                .flexContainerServicio {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
                     width: 30rem;
                     justify-content: space-around;
 
-                    .tituloInput{
+                    .tituloInput {
                         margin-bottom: 0.625rem;
                         width: 100%;
 
-                        input{
+                        input {
                             margin-right: 5rem;
                             width: 100%;
                             font-size: 0.5rem;
                         }
 
-                        textarea{
+                        textarea {
                             width: 100%;
                             font-size: 0.9rem;
                         }
                     }
 
-                    
-                    
-                    label{
+                    label {
                         font-size: 1rem;
                         font-weight: bolder;
                     }
 
-                    .tipoServicio{
-                        background-color:whitesmoke;
+                    .tipoServicio {
+                        background-color: whitesmoke;
                         width: 100%;
 
-                        h3{
+                        h3 {
                             margin: 5px;
                             font-size: 1.1rem;
                             font-weight: bold;
                             padding-bottom: 00.373rem;
                         }
-                        
-                        select{
+
+                        select {
                             width: 100%;
                             font-size: 00.9rem;
                         }
@@ -124,18 +120,18 @@
                 }
             }
 
-            .flexContainerBotones{
+            .flexContainerBotones {
                 display: flex;
                 justify-content: flex-end;
 
-                .botonesFormulario{
+                .botonesFormulario {
                     background-color: whitesmoke;
                     margin: 15px;
                     font-size: 1rem;
                     clear: both;
                     margin-right: 50px;
 
-                    button{
+                    button {
                         padding: 10px;
                         font-size: 0.9rem;
                         border: 1px solid black;
@@ -143,17 +139,17 @@
                         margin: 0.313rem;
                     }
 
-                    button:hover{
+                    button:hover {
                         filter: drop-shadow(2px 2px 5px black);
                     }
-                    
-                    input{
+
+                    input {
                         font-size: 0.9rem;
                         padding: 0.625rem;
                         margin: 0.313rem;
                     }
-                    
-                    select{
+
+                    select {
                         font-size: 0.9rem;
                         padding: 0.625rem;
                         margin: 0.313rem;

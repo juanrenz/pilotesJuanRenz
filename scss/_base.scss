@@ -1,18 +1,16 @@
-$colorAzul: #2C2E43;
+$colorAzul: #2c2e43;
 $colorGrisOscuro: #595260;
-$colorGris: #B2B1B9;
-$colorAmarillo: #EFC23A;
+$colorGris: #b2b1b9;
+$colorAmarillo: #efc23a;
 $ancho: 100%;
 
-
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
-body{
-    background-color: $colorGris!important;
+body {
+    background-color: $colorGris !important;
     height: 100%;
 }
-

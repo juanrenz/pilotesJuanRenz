@@ -1,317 +1,313 @@
 /* MEDIA QUERIES*/
 
-@media (max-width: 575.98px) { 
-    
-    .header{
+@media (max-width: 575.98px) {
+    .header {
         flex-direction: column;
         align-items: center;
 
-        .header__titulo{
+        .header__titulo {
             margin: 1px;
         }
 
-        .navbar{
+        .navbar {
             width: 100%;
         }
     }
 
     /* CONTENIDO PRINCIPAL */
 
-    .principal__contenedorFlex{
+    .principal__contenedorFlex {
         flex-direction: column;
 
-        &__position__texto{
-            position: relative!important;
-            height: auto!important;
-            width: auto!important;
-            right: auto!important;
-            top: auto!important;
+        &__position__texto {
+            position: relative !important;
+            height: auto !important;
+            width: auto !important;
+            right: auto !important;
+            top: auto !important;
         }
-        
-        &__position__carrusel{
+
+        &__position__carrusel {
             display: none;
         }
     }
 
     /* QUIENES SOMOS */
-    .quienesSomos{
+    .quienesSomos {
         flex-direction: column;
 
-        &__flex{
+        &__flex {
             height: auto;
             align-items: center;
 
-            &__contenedorTexto{
+            &__contenedorTexto {
                 width: auto;
             }
-        
         }
-        
-        &__contenedorMapa{
+
+        &__contenedorMapa {
             display: none;
 
-            &__mapa{
+            &__mapa {
                 display: none;
             }
-
         }
     }
 
     /*CONTACTO*/
 
-    .contenedorInformacion{
+    .contenedorInformacion {
         flex-direction: column;
 
-        .informacionContacto{
-            width: auto!important;
+        .informacionContacto {
+            width: auto !important;
 
-            .tituloInput{
-                width: 100%!important;
+            .tituloInput {
+                width: 100% !important;
             }
 
-            .dondeConocio{
-                width: 100%!important;
+            .dondeConocio {
+                width: 100% !important;
 
-                .form-check{
+                .form-check {
                     margin: 2px;
                 }
-                
             }
         }
 
-        .flexContainerServicio{
-            width: auto!important;
+        .flexContainerServicio {
+            width: auto !important;
 
-            .tituloInput{
-                width: 100%!important;
+            .tituloInput {
+                width: 100% !important;
             }
 
-            .tipoServicio{
-                width: 100%!important;
+            .tipoServicio {
+                width: 100% !important;
             }
         }
     }
- }
 
-@media (min-width: 576px) and (max-width: 767.98px) { 
+    /*FOOTER*/
 
-    .header{
+    .footer__barraRedesSociales {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header {
         flex-direction: column;
         align-items: center;
 
-        .header__titulo{
+        .header__titulo {
             margin: 1px;
         }
 
-        .navbar{
+        .navbar {
             width: 100%;
         }
     }
 
     /* CONTENIDO PRINCIPAL */
 
-    .principal__contenedorFlex{
+    .principal__contenedorFlex {
         flex-direction: column;
 
-        &__position__texto{
-            position: relative!important;
-            height: auto!important;
-            width: auto!important;
-            right: auto!important;
-            top: auto!important;
-        }
-        
-        &__position__carrusel{
-            display: none;
+        &__position__texto {
+            position: relative !important;
+            height: auto !important;
+            width: auto !important;
+            right: auto !important;
+            top: auto !important;
         }
 
+        &__position__carrusel {
+            display: none;
+        }
     }
 
     /* QUIENES SOMOS */
-    .quienesSomos{
+    .quienesSomos {
         flex-direction: column;
 
-        &__flex{
+        &__flex {
             height: auto;
             align-items: center;
 
-            &__contenedorTexto{
+            &__contenedorTexto {
                 width: auto;
             }
-        
         }
-        
-        &__contenedorMapa{
+
+        &__contenedorMapa {
             display: none;
 
-            &__mapa{
+            &__mapa {
                 display: none;
             }
-
         }
     }
 
-     /*CONTACTO*/
+    /*CONTACTO*/
 
-     .contenedorInformacion{
+    .contenedorInformacion {
         flex-direction: column;
 
-        .informacionContacto{
-            width: auto!important;
+        .informacionContacto {
+            width: auto !important;
 
-            .tituloInput{
-                width: 100%!important;
+            .tituloInput {
+                width: 100% !important;
             }
 
-            .dondeConocio{
-                width: 100%!important;
+            .dondeConocio {
+                width: 100% !important;
 
-                .form-check{
+                .form-check {
                     margin: 2px;
                 }
-                
             }
         }
 
-        .flexContainerServicio{
-            width: auto!important;
+        .flexContainerServicio {
+            width: auto !important;
 
-            .tituloInput{
-                width: 100%!important;
+            .tituloInput {
+                width: 100% !important;
             }
 
-            .tipoServicio{
-                width: 100%!important;
+            .tipoServicio {
+                width: 100% !important;
             }
         }
     }
- }
 
-@media (min-width: 768px) and (max-width: 991.98px) { 
-   
-    .header{
+    /*FOOTER*/
+
+    .footer__barraRedesSociales {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header {
         flex-direction: column;
         align-items: center;
 
-        .header__titulo{
+        .header__titulo {
             margin: 1px;
         }
 
-        .navbar{
+        .navbar {
             width: 100%;
         }
     }
 
     /* CONTENIDO PRINCIPAL */
 
-    .principal__contenedorFlex{
+    .principal__contenedorFlex {
         flex-direction: column;
 
-        &__position__texto{
-            position: relative!important;
-            height: auto!important;
-            width: auto!important;
-            right: auto!important;
-            top: auto!important;
+        &__position__texto {
+            position: relative !important;
+            height: auto !important;
+            width: auto !important;
+            right: auto !important;
+            top: auto !important;
         }
-        
-        &__position__carrusel{
+
+        &__position__carrusel {
             display: none;
         }
-
     }
-    
-    .quienesSomos{
+
+    .quienesSomos {
         flex-direction: column;
 
-        &__flex{
+        &__flex {
             height: 100%;
             align-items: center;
 
-            &__contenedorTexto{
+            &__contenedorTexto {
                 width: auto;
             }
-        
         }
-        
-        &__contenedorMapa{
-            width: auto;
 
+        &__contenedorMapa {
+            width: auto;
         }
     }
 
-     /*CONTACTO*/
+    /*CONTACTO*/
 
-     .contenedorInformacion{
+    .contenedorInformacion {
         flex-direction: column;
 
-        .informacionContacto{
-            width: auto!important;
+        .informacionContacto {
+            width: auto !important;
 
-            .tituloInput{
-                width: 100%!important;
+            .tituloInput {
+                width: 100% !important;
             }
 
-            .dondeConocio{
-                width: 100%!important;
+            .dondeConocio {
+                width: 100% !important;
 
-                .form-check{
+                .form-check {
                     margin: 2px;
                 }
-                
             }
         }
 
-        .flexContainerServicio{
-            width: auto!important;
+        .flexContainerServicio {
+            width: auto !important;
 
-            .tituloInput{
-                width: 100%!important;
+            .tituloInput {
+                width: 100% !important;
             }
 
-            .tipoServicio{
-                width: 100%!important;
+            .tipoServicio {
+                width: 100% !important;
             }
         }
     }
- }
+}
 
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-
+@media (min-width: 992px) and (max-width: 1199.98px) {
     /* CONTENIDO PRINCIPAL */
 
-    .principal__contenedorFlex{
+    .principal__contenedorFlex {
         flex-direction: column;
 
-        &__position__texto{
-            position: relative!important;
-            height: auto!important;
-            width: 50!important;
-            right: auto!important;
-            top: auto!important;
+        &__position__texto {
+            position: relative !important;
+            height: auto !important;
+            width: 50 !important;
+            right: auto !important;
+            top: auto !important;
         }
-        
-        &__position__carrusel{
+
+        &__position__carrusel {
             display: none;
         }
     }
 
     /*QUIENES SOMOS*/
 
-        .quienesSomos__flex{
-            height: auto;
-            align-items: center;
+    .quienesSomos__flex {
+        height: auto;
+        align-items: center;
 
-            &__contenedorTexto{
-                width: auto;
-            }
-        
-        }
-        
-        &__contenedorMapa{
+        &__contenedorTexto {
             width: auto;
         }
- }
- 
+    }
 
-@media (min-width: 1200px) { }
+    &__contenedorMapa {
+        width: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+}
